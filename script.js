@@ -108,7 +108,6 @@ const myChart = new Chart(ctx, {
   },
 });
 
-
 function updateChartData() {
   // Tạo dữ liệu dummy để test
   const item1Data = [
@@ -124,11 +123,11 @@ function updateChartData() {
   const item2Data = [
     {
       time: moment().format("YYYY-MM-DD HH:mm:ss"),
-      value: Math.random() * 150,
+      value: Math.random() * 100,
     },
     {
       time: moment().add(2, "minutes").format("YYYY-MM-DD HH:mm:ss"),
-      value: Math.random() * 150,
+      value: Math.random() * 100,
     },
   ];
 
